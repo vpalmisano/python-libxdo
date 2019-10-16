@@ -18,10 +18,10 @@ include CHANGELOG.rst
 # exclude all files under dir matching any of the listed patterns
 # recursive-exclude dir pat1 pat2 ...
 
-# include all files anywhere in the source tree matching — & any of the listed patterns
+# include all files anywhere in the source tree matching - & any of the listed patterns
 # global-include pat1 pat2 ...
 
-# exclude all files anywhere in the source tree matching — & any of the listed patterns
+# exclude all files anywhere in the source tree matching - & any of the listed patterns
 # global-exclude pat1 pat2 ...
 
 # exclude all files under dir
