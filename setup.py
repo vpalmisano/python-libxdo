@@ -48,4 +48,4 @@ setup(
         "Programming Language :: Python :: Implementation :: CPython",
         # "Programming Language :: Python :: Implementation :: PyPy",
     ],
-    package_data={'': ['README.rst', 'LICENSE', 'CHANGELOG.rst']})
+    package_data={'': ['README.rst', 'LICENSE']})
