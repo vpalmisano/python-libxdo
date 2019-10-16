@@ -8,10 +8,10 @@ install_requires = ['six']
 here = os.path.dirname(__file__)
 
 with open(os.path.join(here, 'README.rst')) as fp:
-    longdesc = fp.read()
+    longdesc = fp.read().decode('utf-8')
 
 with open(os.path.join(here, 'CHANGELOG.rst')) as fp:
-    longdesc += "\n\n" + fp.read()
+    longdesc += "\n\n" + fp.read().decode('utf-8')
 
 setup(
     name='python-libxdo',
